@@ -10,7 +10,7 @@ const SideBarView = (props) => {
       {data.map((data) => (
         <div className="SideBarContainer">
           <Link to="/home" className="logo">
-            <img src={data.img} />
+            <img src={data.img} alt = "" />
           </Link>
 
           <div className="top-nav">
@@ -27,7 +27,7 @@ const SideBarView = (props) => {
                 </div>
               </div>
               <div className="imgC">
-                <img src={data.imgC} />
+                <img src={data.imgC}alt = "" />
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ const SideBarView = (props) => {
               <NavLink to="/menu" className="menu-item">
                 MENU
               </NavLink>
-              <a className="menu-item">PROMOCIONES</a>
+              <a className="menu-item1">PROMOCIONES</a>
               <a className="menu-item">SUCURSALES</a>
               <a className="menu-item">CONTACTO</a>
             </div>

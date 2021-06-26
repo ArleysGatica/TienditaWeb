@@ -87,12 +87,14 @@ class Slider extends React.PureComponent {
                     justifyContent: "center",
                   }}
                 >
+                  
                   <img
                     style={{
                       width: "100%",
                       height: "100%",
                     }}
                     src={data.img}
+                    alt=""
                   />
                   <div className="carousel-caption">{data.label}</div>
                 </div>

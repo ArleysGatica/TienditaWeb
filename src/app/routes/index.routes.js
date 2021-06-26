@@ -21,7 +21,7 @@ function IndexRoutes() {
     <Suspense
       fallback={
         <div className="logo">
-          <img src={image} />
+          <img src={image} alt =""/>
         </div>
       }
     >

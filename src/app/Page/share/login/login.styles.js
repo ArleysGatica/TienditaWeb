@@ -2,9 +2,11 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const loginStyles = makeStyles((theme) => ({
   root: {
+   
     width: "100%",
     marginTop: 80,
     marginBottom: 10,
+    
   },
   contentAll: {
     width: "100%",
@@ -21,7 +23,7 @@ const loginStyles = makeStyles((theme) => ({
     alignItems: "center",
     backdropFilter: "blur(10px)",
     color: "white",
-    backgroundColor: "#3498db",
+    backgroundColor: "#160784",
     borderRadius: 5,
   },
   spaceTitle: {
