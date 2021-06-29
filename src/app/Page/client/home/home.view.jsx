@@ -8,6 +8,7 @@ import Perfil from "../../../../assets/image/Perfil.jpg";
 import Campanita from "../../../../assets/image/activo.png";
 import Carrito from "../../../../assets/image/anadir-al-carrito.png";
 import PizzaRandom from "../../../../assets/image/PizzaRandom.jpg";
+import Pizza from "../../../../assets/image/pizzaIcon.png";
 
 import Menu from "../../../../assets/image/menu.png";
 
@@ -68,7 +69,7 @@ const HomeView = (props) => {
                 <img src={Menu} alt="" />
               </button>
               <div className="homeContainer__dashboard__header__title">
-                <h1>American Cheese</h1>
+                <h1>The Niche Store</h1>
               </div>
               <div className="homeContainer__dashboard__header__input">
                 <input type="text" placeholder="Buscar" />
@@ -136,11 +137,13 @@ const HomeView = (props) => {
             </div>
 
             <div className="homeContainer__dashboard__branch">
+              {}
               <div className="homeContainer__dashboard__branch__title">
-                <h2>Sucursales</h2>
+                <h2>Formas de Pago</h2>
               </div>
               <div className="homeContainer__dashboard__branch__content">
                 <div className="homeContainer__dashboard__branch__content__card">
+                  
                   <div className="homeContainer__dashboard__branch__content__card__location">
                     <h5>Sucursales</h5>
                     <p>Juigalpa</p>
@@ -154,29 +157,11 @@ const HomeView = (props) => {
                     <p>#1</p>
                   </div>
                   <div className="homeContainer__dashboard__branch__content__card__phone">
-                    <h5>Delibery</h5>
-                    <p>2512-5858</p>
+                    
+                    
                   </div>
                 </div>
-                <div className="homeContainer__dashboard__branch__content__border"></div>
-                <div className="homeContainer__dashboard__branch__content__card">
-                  <div className="homeContainer__dashboard__branch__content__card__location">
-                    <h5>Sucursales</h5>
-                    <p>Juigalpa</p>
-                  </div>
-                  <div className="homeContainer__dashboard__branch__content__card__addres">
-                    <h5>Direccion</h5>
-                    <p>Por el chino</p>
-                  </div>
-                  <div className="homeContainer__dashboard__branch__content__card__number">
-                    <h5>Rank</h5>
-                    <p>#1</p>
-                  </div>
-                  <div className="homeContainer__dashboard__branch__content__card__phone">
-                    <h5>Delibery</h5>
-                    <p>2512-5858</p>
-                  </div>
-                </div>
+                
                 <div className="homeContainer__dashboard__branch__content__button">
                   <div></div>
                   <div></div>
