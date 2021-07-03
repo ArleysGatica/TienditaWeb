@@ -77,7 +77,6 @@ const loginStyles = makeStyles((theme) => ({
     border: "none",
     fontSize: 16,
     letterSpacing: 0.15,
-    border: "none",
     outline: "none",
     fontFamily: "Montserrat, sans-serif",
     backgroundColor: "#ecf0f3",

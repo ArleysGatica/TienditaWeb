@@ -5,7 +5,7 @@
   left: 0;
   width: 100vw;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.7);
   display: none;
   justify-content: center;
   align-items: center;
@@ -15,12 +15,11 @@
 }
 .modal__container {
   position: relative;
-  height: 85vh;
+  height: 93vh;
   width: 40vw;
-  background-color: white;
-  overflow-y: auto;
-  white-space: nowrap;
-  border-radius: 10px;
+  background-color:rgba(0, 0, 0, 0.6);
+  
+  border-radius: 15px;
 }
 .modal-change {
   position: absolute;

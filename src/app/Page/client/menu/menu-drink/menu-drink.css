@@ -1,0 +1,38 @@
+.card-compu{
+    width: 100%;
+    height: 100%;
+
+}
+  
+  .content-compu{
+    height: 20%;
+    background: rgba(186, 197, 192, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 40px;
+
+
+  }
+  .content-compu h2 {
+      margin: 0px;
+  }
+  .content-compu p{
+      margin: 0px;
+  }
+ 
+  .img-compu{
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    
+  
+  }
+  .img-compu img{
+    height: 100%;
+    width:100% ;
+  
+  }

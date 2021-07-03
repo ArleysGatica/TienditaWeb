@@ -6,10 +6,10 @@
   background: linear-gradient(
     317deg,
     rgb(17, 126, 62) 0%,
-    rgb(10, 143, 136) 25%,
+    rgb(22, 7, 132) 25%,
     rgb(54, 18, 126) 50%,
-    rgb(10, 143, 136) 75%,
-    rgb(22, 7, 132) 100%
+    rgb(22, 7, 132) 75%,
+    rgb(17, 126, 62) 100%
   );
   display: flex;
   justify-content: center;
@@ -88,6 +88,7 @@
   align-items: flex-end;
   border-radius: 0px 0px 0px 20px;
 }
+/*
 .homeContainer__sideBar__follow__title {
   width: 100%;
 }
@@ -119,7 +120,7 @@
 .homeContainer__sideBar__follow__net--Facebook img {
   height: 70%;
   width: 50%;
-}
+}*/
 
 .homeContainer__dashboard {
   height: auto;
@@ -174,11 +175,12 @@
 .homeContainer__dashboard__header__input {
   height: 100%;
   width: 40%;
+  right: 20px;
   display: flex;
   align-items: center;
 }
 .homeContainer__dashboard__header__input input {
-  height: 30px;
+  height: 50px;
   width: 250px;
   border-radius: 10px;
   outline: none;
@@ -186,10 +188,10 @@
   font-size: 0.9rem;
 }
 .homeContainer__dashboard__category {
-  height: 15%;
+  height: 18%;
   width: 80%;
   border-radius: 20px;
-  background-color: transparent;
+  background-color:rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -324,8 +326,8 @@
 .homeContainer__dashboard__productPopular__content__card {
   position: relative;
   height: 100%;
-  width: 20%;
-  background-color: aqua;
+  width: 1000%;
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   display: flex;
   justify-content: space-around;
@@ -333,7 +335,6 @@
 }
 .homeContainer__dashboard__productPopular__content__card img {
   position: absolute;
-  object-fit: cover;
   object-position: center;
   height: 100%;
   width: 100%;
@@ -342,8 +343,8 @@
 .homeContainer__dashboard__productPopular__content__card h3 {
   position: absolute;
   margin: 0px;
-  color: white;
-  z-index: 100;
+  color: rgb(17, 16, 16);
+  z-index: 80;
 }
 .homeContainer__dashboard__productPopular__content__card.Open {
   width: 16%;
@@ -377,7 +378,7 @@
 .homeContainer__productRandom__content {
   height: 50%;
   width: 80%;
-  background: rgba(254, 179, 110, 0.7);
+  background: rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

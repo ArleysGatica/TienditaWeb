@@ -1,14 +1,10 @@
-import { React, useEffect, useState } from "react";
+import { React,  useState } from "react";
 import HomeView from "./home.view";
-import Pizza from "../../../../assets/image/pizzaIcon.png";
-import Calzone from "../../../../assets/image/calzonepng.png";
-import Batido from "../../../../assets/image/batidopng.png";
-import Frappe from "../../../../assets/image/frappepng.png";
-import Hamburguesa from "../../../../assets/image/hamburguesapng.png";
-import PizzaIcon from "../../../../assets/pizzaIcon.png";
-const logoUrl = "https://localhost:44389/Content/images/logo.png";
-const facebookUrl = "https://localhost:44389/Content/images/Facebook_Logo";
-const instagramUrl = "https://localhost:44389/Content/images/Instagran_Logo";
+import laptops from "../../../../assets/image/Laptop/asus.png";
+import Calzone from "../../../../assets/image/celulares/z fold.png";
+import Batido from "../../../../assets/image/accesorios/ps4.png";
+import Hamburguesa from "../../../../assets/image/accesorios/bocina.png";
+import PizzaIcon from "../../../../assets/image/Laptop/asus.png";
 
 const data = [];
 const data2 = [];
@@ -16,25 +12,22 @@ const ProductPopular = [];
 const ProductPopular2 = [];
 
 data.push({
-  img: Pizza,
-  name: "Pizaa",
+  img: laptops,
+  name: "Laptop",
 });
 data.push({
   img: Calzone,
-  name: "Calzone",
+  name: "Celulares",
 });
 data.push({
   img: Batido,
-  name: "batido",
+  name: "Acesorios",
 });
-data.push({
-  img: Frappe,
-  name: "Frappe",
-});
+
 
 
 data2.push({
-  img: Pizza,
+  img: laptops,
   name: "Pizaa",
 });
 data2.push({
@@ -45,10 +38,7 @@ data2.push({
   img: Batido,
   name: "batido",
 });
-data2.push({
-  img: Frappe,
-  name: "Frappe",
-});
+
 data2.push({
   img: Hamburguesa,
   name: "Hamburguesa",

@@ -1,9 +1,9 @@
 import { React } from "react";
 import "./menu-combo.style.css";
-import {Modal} from "../../../../components/modal/modal"
+
 
 export const CardCombo = (props) => {
-  const { img, description, name } = props;
+  const { img, description, name, Preci } = props;
 
   return (
     <>
@@ -12,7 +12,8 @@ export const CardCombo = (props) => {
           <div class="content-combo">
             <h2>{name} </h2>
             <p>{description}</p>
-            <a href="#">Comr</a>
+            <h3> {Preci}</h3>
+            <a href="#">Comprar</a>
           </div>
           <img src={img} alt="" />
         </div>

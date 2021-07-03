@@ -3,7 +3,7 @@ import React from "react";
 import RBCarousel from "react-bootstrap-carousel";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+
 import house from "../../../../assets/image/house.jpg";
 import Heroes from "../../../../assets/image/Heroes.jpg";
 import banda from "../../../../assets/image/Banda.jpg";

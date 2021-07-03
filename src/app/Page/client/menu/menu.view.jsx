@@ -11,11 +11,11 @@ const MenuView = () => {
         <div className="menu-bar">
           
           <NavLink
-            to="/menu-pizza"
+            to="/accesorios"
             className="menu__items"
             activeClassName="active"
           >
-            pizza
+            Accesorio
           </NavLink>
           
           <NavLink
@@ -26,18 +26,18 @@ const MenuView = () => {
             Laptops
           </NavLink>
           <NavLink
-            to="/menu-combo"
+            to="/celulares"
             className="menu__items"
             activeClassName="active"
           >
-            combo
+            Telefono
           </NavLink>
           <NavLink
-            to="/menu-smoothie"
+            to="/tablet"
             className="menu__items"
             activeClassName="active"
           >
-            Batido
+            Tablet
           </NavLink>
           
         </div>

@@ -4,15 +4,14 @@ import image from "../../../../../assets/image/Laptop/asus.png";
 import image2 from "../../../../../assets/image/Laptop/mac.png";
 import image3 from "../../../../../assets/image/Laptop/dellg.png";
 import image4 from "../../../../../assets/image/Laptop/dell.png";
-import image5 from "../../../../../assets/image/Laptop/lenovo.png"
-import image6 from "../../../../../assets/image/Laptop/mac2.png"
-import image7 from "../../../../../assets/image/Laptop/acer.png"
+import image5 from "../../../../../assets/image/Laptop/lenovo.png";
+import image6 from "../../../../../assets/image/Laptop/mac2.png";
+import image7 from "../../../../../assets/image/Laptop/acer.png";
 import image8 from "../../../../../assets/image/Laptop/asusb.png"
-import image9 from "../../../../../assets/image/Laptop/hpPA.png"
-import image10 from "../../../../../assets/image/Laptop/asusZ.png"
-
-import {Modal} from "../../../../components/modal/modal"
-
+import image9 from "../../../../../assets/image/Laptop/hpPA.png";
+import image10 from "../../../../../assets/image/Laptop/asusZ.png";
+import {Modal} from "../../../../components/modal/modal" ;
+import "./menu-drink.css";
 const data = [];
 
 data.push({
@@ -89,13 +88,15 @@ function MenuDrink() {
     <MenuDrinkView data={data} openModal={openModal} />
     <Modal isOpen={!!producto} closeModal={closeModal}>
       <div class ="card-compu">
-          <div class = "sub-compu">
+        
               <div class = "content-compu">
                   <h2>{producto?.name}</h2>  
                   <p>{producto?.description}</p>
               </div>
-              <img src = {producto?.img} alt= ""/>
-          </div>
+              <div className="img-compu">
+                 <img src = {producto?.img} alt= ""/>
+              </div>
+          
       </div>
     </Modal>
   </>;
@@ -103,4 +104,3 @@ function MenuDrink() {
 }
 
 export default MenuDrink;
-

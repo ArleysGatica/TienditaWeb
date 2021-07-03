@@ -1,15 +1,16 @@
 import { React, useState } from "react";
 import MenuComboView from "./menu-combo.view";
-import image from "../../../../../assets/image/celulares/s20.jpg";
-import image2 from "../../../../../assets/image/celulares/a21s.jpg";
+import image from "../../../../../assets/image/celulares/s9.png";
+import image2 from "../../../../../assets/image/celulares/P20.png";
 
 const data = [];
 
 data.push({
   img: image,
-  name: "Samsung Galaxy s20",
+  name: "Samsung Galaxy s9",
   description:
-    "Samsung Electronics Samsung Galaxy S20 FE 5G | Teléfono celular Android desbloqueado de fábrica | 128 GB | Versión de teléfono inteligente de EE. UU. | Cámara profesional, zoom espacial 30X, modo nocturno | Nube Azul Marino",
+    "Samsung Galaxy S9 | Teléfono celular Android desbloqueado de fábrica | 128 GB | Versión de teléfono inteligente de EE. UU. | Cámara profesional, zoom espacial 30X, modo nocturno | Rosado",
+  Preci:" $ 800.00",
 });
 data.push({
   img: image,
@@ -44,7 +45,7 @@ data.push({
 });
 console.log(data);
 function MenuCombo() {
-  console.log(data);
+  
   return <MenuComboView data={data} />;
 }
 export default MenuCombo;

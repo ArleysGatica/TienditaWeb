@@ -1,14 +1,11 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
 import "./home.style.css";
-import logoUrl from "../../../../assets/image/AmericanCheeseLogopng.png";
-import facebookUrl from "../../../../assets/image/Facebook_Logo.png";
-import instagramUrl from "../../../../assets/image/Instagran_Logo.png";
-import Perfil from "../../../../assets/image/Perfil.jpg";
+import logoUrl from "../../../../assets/image/logoo.png";
+import Perfil from "../../../../assets/image/usuario.png";
 import Campanita from "../../../../assets/image/activo.png";
 import Carrito from "../../../../assets/image/anadir-al-carrito.png";
-import PizzaRandom from "../../../../assets/image/PizzaRandom.jpg";
-import Pizza from "../../../../assets/image/pizzaIcon.png";
+import PizzaRandom from "../../../../assets/image/carito.png";
 
 import Menu from "../../../../assets/image/menu.png";
 
@@ -36,7 +33,8 @@ const HomeView = (props) => {
                 <p> 2422-5882</p>
               </div>
             </div>
-            <div className="homeContainer__sideBar__follow">
+            {/*  
+             <div className="homeContainer__sideBar__follow">
               <div className="homeContainer__sideBar__follow__title">
                 <h2>siguenos en:</h2>
               </div>
@@ -49,6 +47,7 @@ const HomeView = (props) => {
                 </div>
               </div>
             </div>
+            */}
           </div>
           <div
             className={
