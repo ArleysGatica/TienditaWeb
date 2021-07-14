@@ -3,13 +3,13 @@ import React from "react";
 import RBCarousel from "react-bootstrap-carousel";
 
 import "bootstrap/dist/css/bootstrap.css";
-
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import house from "../../../../assets/image/house.jpg";
 import Heroes from "../../../../assets/image/Heroes.jpg";
 import banda from "../../../../assets/image/Banda.jpg";
 import categories3 from "../../../../assets/image/pizza3.jpg";
 
-const styles = { height: 400, width: "100%" };
+const styles = { height: 200, width: "100%", objectFit: "cover" };
 const icon_glass = <span className="fa fa-glass" />;
 const icon_music = <span className="fa fa-music" />;
 const data = [];
@@ -82,19 +82,17 @@ class Slider extends React.PureComponent {
               {data.map((data) => (
                 <div
                   style={{
-                    height: 541,
+                    height: 341,
                     display: "flex",
                     justifyContent: "center",
                   }}
                 >
-                  
                   <img
                     style={{
                       width: "100%",
                       height: "100%",
                     }}
                     src={data.img}
-                    alt=""
                   />
                   <div className="carousel-caption">{data.label}</div>
                 </div>

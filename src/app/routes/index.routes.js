@@ -1,5 +1,5 @@
 import React, { useState, Suspense, lazy } from "react";
-import image from "../../assets/image/logo.png";
+
 
 const ClientRoutes = lazy(() => import("./client.routes"));
 const DependentRoutes = lazy(() => import("./dependent.routes"));
@@ -21,7 +21,7 @@ function IndexRoutes() {
     <Suspense
       fallback={
         <div className="logo">
-          <img src={image} alt =""/>
+          
         </div>
       }
     >

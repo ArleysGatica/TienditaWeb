@@ -1,9 +1,9 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import image from "../../assets/image/logo.png";
+
 
 //const Home = lazy(() => import("../page/client/home/home"));
-const Login = lazy(() => import("../Page/share//login/login"));
+const Inventory = lazy(() => import("../Page/dependent/Inventory/inventory"));
 
 function DependentRoutes() {
   return (
@@ -11,13 +11,13 @@ function DependentRoutes() {
       <Suspense
         fallback={
           <div className="logo">
-            <img src={image} alt="" />
+           
           </div>
         }
       >
         <Switch>
-          <Route exact path="/" component={Login} />
-         <Route component={Login} />
+          <Route exact path="/" component={Inventory} />
+         <Route component={Inventory} />
         </Switch>
       </Suspense>
     </BrowserRouter>
