@@ -1,5 +1,8 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const Login = lazy(() => import("../Page/share//login/login"));
 const Home = lazy(() => import("../Page/client/home/home"));
