@@ -1,4 +1,4 @@
-const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:53631";
+const apiUrl = process.env.REACT_APP_API_URL || "https://localhost:44376/Api";
 function Services(id) {
   const baseUrl = `${apiUrl}/Arti-Categoria/${id}`;
   console.log(baseUrl);

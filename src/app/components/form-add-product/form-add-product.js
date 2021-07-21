@@ -3,10 +3,7 @@ import "./form-add-product.style.css";
 import Texfield from "../textfield/texfield";
 import { fetchArticulo } from "../../../services/services-articulo";
 
-
 const FormAddProduct = () => {
- 
-
   const [nombre, setNombre] = useState();
   const [stok, setStok] = useState();
   const [categoria, setCategoria] = useState();
@@ -15,13 +12,13 @@ const FormAddProduct = () => {
   const [descripcion, setDescripcion] = useState();
   const [imagen, setImagen] = useState();
 
-  const product = {
-    CategoriaID:categoria,
-    Proveedor:"NDFJH",
-    NombreArt:nombre, 
-    Precio:precio,
-    Stock:stok, 
-   Imagen:imagen, 
+  const articulo = {
+    CategoriaID: categoria,
+    ProveedorID: "938321E1-6C4D-4249-A251-20E7C2D1DAB2",
+    NombreArt: nombre,
+    Precio: parseInt(precio),
+    Stock: parseInt(stok),
+    Imagen: imagen,
   };
 
   const handlerProductChange = (e) => {
@@ -55,8 +52,8 @@ const FormAddProduct = () => {
     }
   };
   const handlerSaveProduct = () => {
-    fetchArticulo.PostArticulo(product)
-    console.log(product);
+    fetchArticulo.PostArticulo(articulo);
+    console.log(articulo);
   };
   return (
     <>
@@ -120,7 +117,7 @@ const FormAddProduct = () => {
             type={"text"}
           />
         </div>
-       
+
         <button
           className="FormAddProduct__container--saveProduct"
           onClick={handlerSaveProduct}
